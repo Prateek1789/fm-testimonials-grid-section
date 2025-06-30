@@ -8,5 +8,5 @@ export default defineConfig({
     tailwindcss(), 
     react()
   ],
-  base: '/FM-testimonials-grid-section',
+  base: '/fm-testimonials-grid-section',
 })
