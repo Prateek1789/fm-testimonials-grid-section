@@ -37,7 +37,7 @@
     color: var(--color-Grey-500);
 }
 
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
     .container {
         grid-template-areas: 
             "danial jonathan"
