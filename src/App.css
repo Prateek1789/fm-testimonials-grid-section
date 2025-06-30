@@ -1,0 +1,58 @@
+.container {
+    grid-template-areas: 
+        "danial"
+        "jonathan"
+        "jeanette"
+        "patrick"
+        "kira";
+}
+
+.card:nth-child(1) .user-image img,
+.card:nth-child(4) .user-image img {
+    border: 2px solid var(--color-Purple-300);
+}
+
+.card:nth-child(1) {
+    grid-area: danial;
+    color: var(--color-Grey-100);
+}
+
+.card:nth-child(2) {
+    grid-area: jonathan;
+    color: var(--color-Grey-100);
+}
+
+.card:nth-child(3) {
+    grid-area: jeanette;
+    color: var(--color-Grey-500);
+}
+
+.card:nth-child(4) {
+    grid-area: patrick;
+    color: var(--color-Grey-200);
+}
+
+.card:nth-child(5) {
+    grid-area: kira;
+    color: var(--color-Grey-500);
+}
+
+@media (min-width: 768px) {
+    .container {
+        grid-template-areas: 
+            "danial jonathan"
+            "danial jeanette"
+            "patrick patrick"
+            "kira kira";
+        gap: 1rem;
+    }
+}
+
+@media (min-width: 80rem) {
+    .container {
+        grid-template-areas: 
+            "danial danial jonathan kira"
+            "jeanette patrick patrick kira";
+        gap: 2rem;
+    }
+}
