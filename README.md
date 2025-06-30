@@ -1,6 +1,6 @@
 # Frontend Mentor - Testimonials grid section
 
-![Design preview for the Four card feature section coding challenge](./src/assets/images/desktop-preview.jpg)
+![Design preview for the Testimonials grid section coding challenge](./src/assets/images/desktop-preview.jpg)
 
 ## Welcome! 👋
 
